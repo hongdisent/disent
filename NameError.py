@@ -24,6 +24,7 @@ print(my_variable)  # This will trigger a NameError because 'my_variable' is not
 
 
 #--------------------------
+
 """
 Traceback (most recent call last):
   File "/workspaces/disent/name_error.py", line 18, in <module>

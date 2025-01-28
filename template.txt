@@ -1,0 +1,26 @@
+"""
+Error: 
+
+This error occurs when 
+"""
+
+#--------------------------
+
+"""
+Video Script:
+
+
+"""
+
+#--------------------------
+
+
+# Code that triggers the NameError
+
+
+#--------------------------
+
+"""
+Traceback (most recent call last):
+
+"""
