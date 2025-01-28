@@ -32,3 +32,4 @@ Traceback (most recent call last):
           ^^^^^^^^^^^
 NameError: name 'my_variable' is not defined
 """
+
