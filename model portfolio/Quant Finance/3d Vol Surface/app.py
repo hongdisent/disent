@@ -1,11 +1,10 @@
 # 📌 Save this as app.py and run using: streamlit run app.py
-
 import streamlit as st
 import numpy as np
 import plotly.graph_objs as go
 
 st.set_page_config(layout="wide")
-st.title("SSVI Local Variance Surface (3D Plot)")
+st.title("Arbitrage-free SVI volatility surfaces (3D Plot)")
 
 # --- SSVI functions ---
 def phi(theta, params):
@@ -64,7 +63,7 @@ xx = np.linspace(-1., 1., 40)
 TT = np.linspace(0.1, 2., 40)
 xxx, TTT = np.meshgrid(xx, TT)
 
-local_var = np.array([[SSVI_LocalVarg(x, t, params) for x in xx] for t in TT])
+local_var = np.sqrt(np.array([[SSVI_LocalVarg(x, t, params) for x in xx] for t in TT]))
 
 # --- Plot ---
 fig = go.Figure(data=[go.Surface(
@@ -76,11 +75,11 @@ fig = go.Figure(data=[go.Surface(
 )])
 
 fig.update_layout(
-    title="SSVI Local Variance Surface",
+    title="SVI Volotility Surface ",
     scene=dict(
         xaxis_title="Log-moneyness",
         yaxis_title="Maturity",
-        zaxis_title="Local Variance",
+        zaxis_title="Volatility",
         camera=dict(eye=dict(x=1.3, y=-1.5, z=0.8))
     ),
     margin=dict(l=0, r=0, b=0, t=40),
