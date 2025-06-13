@@ -69,8 +69,3 @@ d_1 = \frac{\ln(\frac{S_0}{K}) + (r + \frac{1}{2} \sigma^2) T}{\sigma \sqrt{T}},
 d_2 = d_1 - \sigma \sqrt{T}
 """)
 st.markdown(f"d₁ = `{d1:.4f}`  d₂ = `{d2:.4f}`")
-
-# --- Footer ---
-st.markdown("---")
-st.markdown("Crafted with calmness ✨ by a student of mathematics and markets.")
-
