@@ -23,11 +23,11 @@ df = load_data()
 st.sidebar.header("⚙️ Global Filters")
 show_raw = st.sidebar.checkbox("Show raw data", False)
 st.sidebar.divider()
-st.sidebar.caption("Made with ❤️ by Hong")
+st.sidebar.caption("Made by Hong")
 selected_classes = st.sidebar.multiselect(
     "Passenger Class",
     options=df['class'].unique(),
-    default=df['class'].unique()
+    default=df['class'].unique().tolist()
 )
 age_range = st.sidebar.slider(
     "Age Range",
@@ -39,7 +39,7 @@ age_range = st.sidebar.slider(
 selected_sex = st.sidebar.multiselect(
     "Sex",
     options=df['sex'].unique(),
-    default=df['sex'].unique()
+    default=df['sex'].unique().tolist()
 )
 
 # Apply filters to ALL tabs

@@ -35,11 +35,11 @@ Title - 2 CIM Ball Shifter 3 Stage with Grayhill Encoder
 
 * Altium 365 - Cad model
 
-\<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">\<iframe src="https\://personal-viewer.365.altium.com/client/index.html?feature=oembed\&source=c34aa3b1-c788-4f26-ae59-b556aa857cc1" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no">\</iframe>\</div>
+\<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">\<iframe src="<https://personal-viewer.365.altium.com/client/index.html?feature=oembed&source=c34aa3b1-c788-4f26-ae59-b556aa857cc1>" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no">\</iframe>\</div>
 
 <https://oembed.com/>
 
-https\://iframely.com/
+<https://iframely.com/>
 
 * StackBlitz - Chris Model
 * CodePen - Chris Model

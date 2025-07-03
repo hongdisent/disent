@@ -6,7 +6,23 @@ from xgboost import XGBClassifier
 
 pn.extension(sizing_mode="stretch_width", design='material', template="fast")
 
-pn.state.template.param.update(title="XGBoost Example")
+pn.state.template.param.update(
+    title="🌿 Interactive XGBoost Classifier: Iris Dataset"
+)
+
+st_description = """
+### Explore XGBoost on Iris Data
+
+This interactive app trains an **XGBoost classifier** on the classic **Iris dataset** using adjustable hyperparameters:
+- `Number of Trees` (`n_estimators`)
+- `Maximum Tree Depth`
+- `Booster Type` (`gbtree`, `gblinear`, or `dart`)
+
+🔁 Change the sliders and dropdown to see how model accuracy responds in real-time.
+"""
+
+pn.Column(st_description).servable()
+
 
 iris_df = load_iris(as_frame=True)
 
