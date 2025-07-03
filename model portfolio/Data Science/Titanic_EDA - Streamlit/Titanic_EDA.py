@@ -48,7 +48,6 @@ filtered_df = df[
     (df['age'].between(age_range[0], age_range[1])) &
     (df['sex'].isin(selected_sex))
 ]
-
 # --- Main Content ---
 st.title("🚢 Titanic Explorer")
 st.caption(f"Showing {len(filtered_df)} of {len(df)} passengers")
@@ -69,6 +68,7 @@ Dive into the tragic yet fascinating story of the Titanic through data. This int
 
 
 """)
+
 
 tab1, tab2, tab3 = st.tabs(["Survival", "Class Analysis", "Demographics"])
 
