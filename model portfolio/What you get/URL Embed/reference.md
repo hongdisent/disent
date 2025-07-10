@@ -24,11 +24,15 @@ Alternative: <https://www.desmos.com/3d/tiva1aqoun>
 
 Title: Student Course Management System (SQL)
 
-Built a MySQL database to manage students, courses, and enrollments, with relational schema and queries for performance and enrollment insights.
+Description: Built a MySQL database to manage students, courses, and enrollments, with relational schema and queries for performance and enrollment insights.
 
 Link: <https://onecompiler.com/mysql/43pm3jjx9>
 
 * **3d Content Centrol - 3d model**
+
+Title: **3D Piston-Crankshaft Assembly Modeling**
+
+Description: Designed and published a functional 3D model of a multi-piston crankshaft assembly using SOLIDWORKS, showcasing mechanical motion and component alignment on the 3D ContentCentral platform.
 
 <https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=2033524>
 
@@ -42,19 +46,29 @@ Title - 2 CIM Ball Shifter 3 Stage with Grayhill Encoder
 
 * **Altium 365 - Cad model**
 
-\<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">\<iframe src="<https://personal-viewer.365.altium.com/client/index.html?feature=oembed&source=c34aa3b1-c788-4f26-ae59-b556aa857cc1>" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no">\</iframe>\</div>
+Title: Design and Schematic Development of Power Distribution Board (PDB) Connector
 
-<https://oembed.com/>
+Description: Designed and annotated a dual-connector schematic for a PDB system in Altium, integrating battery input protection, voltage regulation, ESC outputs, and I2C signal routing for embedded motor control and monitoring.
 
-<https://iframely.com/>
+\<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">\<iframe src="<https://personal-viewer.365.altium.com/client/index.html?feature=oembed&source=c34aa3b1-c788-4f26-ae59-b556aa857cc1>" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no">\</iframe>\</div>   &#x20;
 
 * StackBlitz - Chris Model
 * CodePen - Chris Model
 * **3d molecule - Protein Model**
 
-Title - Protein degrader 1 hydrochloride
+Title - Protein Modeling of KISS-1
 
-<iframe style="width: 500px; height: 300px;" frameborder="0" src="https://embed.molview.org/v1/?mode=balls&cid=118864076"></iframe>
+Description: Built a 3D molecular model of the KISS-1 protein using MolView to explore its structure and potential biological functions related to metastasis suppression.
+
+<iframe style="width: 500px; height: 300px;" frameborder="0" src="https://embed.molview.org/v1/?mode=balls&cid=71306396"></iframe>
+
+
+
+Useful web:
+
+<https://oembed.com/>
+
+<https://iframely.com/>
 
 <https://embed.molview.org/v1/?mode=balls&cid=118864076>
 
