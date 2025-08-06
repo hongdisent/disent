@@ -1,5 +1,0 @@
-numpy
-streamlit
-pandas
-seaborn
-plotly
