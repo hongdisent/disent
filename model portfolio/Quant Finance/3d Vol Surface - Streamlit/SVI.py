@@ -6,19 +6,7 @@ import streamlit as st
 st.set_page_config(layout="wide")
 
 st.title("3D SVI Implied Volatility Surface")
-# --- SVI-like Implied Volatility Surface ---
-st.write("""
-A 3D SVI Implied Volatility Surface represents the implied volatility of options on a specific underlying asset across different strike prices and maturities, visualized in a three-dimensional plot. 
 
-- X-axis: Time to maturity or days to expiration.
-- Y-axis: Strike price or moneyness (strike price relative to the underlying asset price).
-- Z-axis: Implied volatility
-""")
-
-
-st.latex(r'''
-w(k, \theta) = a + b \left[ \rho (k - m) + \sqrt{(k - m)^2 + \sigma^2} \right]
-''')
 
 # Define SVI function for a single maturity
 def svi(k, params):
@@ -82,7 +70,19 @@ fig.update_layout(
 st.plotly_chart(fig, use_container_width=True)
 
 
+# --- SVI-like Implied Volatility Surface ---
+st.write("""
+A 3D SVI Implied Volatility Surface represents the implied volatility of options on a specific underlying asset across different strike prices and maturities, visualized in a three-dimensional plot. 
 
+- X-axis: Time to maturity or days to expiration.
+- Y-axis: Strike price or moneyness (strike price relative to the underlying asset price).
+- Z-axis: Implied volatility
+""")
+
+
+st.latex(r'''
+w(k, \theta) = a + b \left[ \rho (k - m) + \sqrt{(k - m)^2 + \sigma^2} \right]
+''')
 
 # # reate the figure and 3D axis
 # fig = plt.figure(figsize=(10, 7))
